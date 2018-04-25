@@ -1,0 +1,18 @@
+<h1>Create Artist</h1>
+
+
+
+<form action="/artists" method="post">
+  <input type="text" name="name" id ="name">
+  <input type="submit" value="Add Artist">
+</form>
+
+<form  action="/artists/delete" method="post">
+  <label for="name">Which artist do you want to delete?</label>
+  <select name="name" id="name">
+    <option value="Logic">Logic</option>
+    <option value="G-Eazy">G-Eazy</option>
+    <option value="Eminem">Eminem</option>
+  </select>
+  <input type="submit"  value="Delete Artist">
+</form>

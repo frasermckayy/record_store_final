@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Record Store</title>
+<link rel="stylesheet"  type="text/css" href="/styles/styles.css" />
+</head>
+ <body>
+   <main>
+     <nav>
+       <ul>
+         <a href="/">Home</a>
+         <a href="/artists/new">Add Artists</a>
+         <a href="/albums/new">Add Albums</a>
+         <a href="/inventory">Inventory</a>
+         <a href="/albums">Albums</a>
+         <a href="/artists">Artists</a>
+       </ul>
+     </nav>
+     <table class ="inventory">
+    <section id="content">
+    <%= yield %>
+  </table>
+    </section>
+  </main>
+ </body>
+</html>

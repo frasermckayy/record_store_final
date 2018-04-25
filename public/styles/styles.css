@@ -1,0 +1,34 @@
+body {
+
+background-color: lightgray;
+background-size: 100%;
+background-repeat: no-repeat;
+color: black;
+}
+
+nav {
+  background-color: #C0C0C0;
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+  padding-right: 25px;
+  }
+
+#content {
+  text-align: center;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}

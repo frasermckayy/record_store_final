@@ -1,0 +1,10 @@
+
+<h1>Albums</h1>
+
+
+<% for album in @albums %>
+<ul>
+  <li> <%= album.name %> </li>
+  <li> <%= album.artist.name %> </li>
+</ul>
+  <% end %>
